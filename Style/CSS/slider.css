@@ -1,0 +1,54 @@
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items:center;
+    background-image: url(../Image/pexels-padrinan-255379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2{
+    margin: 0;
+    color: #000000;
+    /* margin-bottom: 10px; */
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.slider{
+    height: 350px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slide-Track{
+    display: flex;
+    width: calc(6*350px);
+    animation: scroll 20s linear infinite;
+}
+.slide-Track:hover{
+    animation-play-state: paused;
+}
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 3));
+    }
+}
+.slide{
+    height: 200px;
+    width:350px;
+    /* display: flex; */
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+img{
+    width: 100%;
+    transition: 1s all;
+}
+img:hover{
+    transform: translateZ(20px);
+}

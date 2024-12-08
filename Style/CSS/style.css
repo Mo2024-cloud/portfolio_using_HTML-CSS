@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: beige;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-left: 10px;
+    transition: 0.8s all;
+    font-weight: bold;
+}
+
+a:hover{
+    font-size: 23px;
+    color: brown;
+}
+
+.container{
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header div{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 61, 226);
+    width: 85%;
+}
+
+nav div{
+    background-color: aquamarine;
+    width: 85%;
+    text-align: center;
+    font-size: 20px;
+}
+
+aside{
+    width:20%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+p{
+    text-align: center;
+}
+
+section #aside-container{
+    display: flex;
+    justify-content: space-between;
+    width: 87.1%;
+    padding: 0;
+    margin-left:85px ;
+    margin-right:85px ;
+}
+
+.aside-content{
+    margin: 15px 0 15px 0;
+    padding: 5px;
+    width: 75%;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+section .carsure{
+    width: 60%;
+}
+.carsure iframe{
+    width: 100%;
+    height: 100%;
+
+}
+
+/* nav a:active iframe */

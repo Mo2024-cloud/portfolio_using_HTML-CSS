@@ -1,0 +1,36 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(../Image/pexels-padrinan-255379.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+div.style{
+   
+    text-align: center;
+    background-color: #19191960;
+    width: 40vw;
+    box-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: 0.8s all;
+}
+div.style:hover{
+    scale: 110%;
+}
+img{
+    margin-top: 10px;
+    width: 20vw;
+    border-radius: 50%;
+}
+h1{
+    text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+h1,h3,h4{
+    letter-spacing: 1.5px;
+}
